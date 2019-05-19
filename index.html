@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<head>
+    <title>TESTE</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.4/jquery.min.js"></script>-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.js"></script>
+    <script src="js/listaCidades.js"></script>
+    <script src="js/exibePrevisao.js"></script>
+
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+
+
+    </style>
+
+</head>
+<body>
+    <header id="header">
+        <nav id="barGov" class="navbar navbar-default">
+            <div class="container-fluid" id="nav-first">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">barra governo</a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar1">
+
+                        <span class="glyphicon glyphicon-tasks"></span>
+
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="myNavbar1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">BRASIL</a></li>
+                        <li><a href="#">Serviços</a></li> 
+                        <li><a href="#">Simplifique</a></li>
+                        <li><a href="#">Participe</a></li>
+                        <li><a href="#">Acesso à informação</a></li>
+                        <li><a href="#">Legislação</a></li>
+                        <li><a href="#">Canais</a></li>
+                    </ul>                
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid" id="nav-sec">
+            <h2>Atendimento</h2>
+        </div>
+
+
+        <div class="container-fluid" id="nav-third" style="background: #1e0bd4;">
+            <a class="navbar-brand" href="#">HOME</a>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar2">
+                    <span class=" glyphicon glyphicon-option-horizontal" style="color:white; "></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar2">
+                <ul class="nav navbar-nav">
+                    <li><a href="#" >Page 1</a></li>
+                    <li><a href="#" >Page 2</a></li>
+                    <li><a href="#" >Page 3</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-6">
+                <fieldset>
+                    <h3>Previsão do Tempo</h3>
+                    <form name="search_form">
+
+                        <input type="text" id="city" placeholder="Informe uma cidade"/>
+
+                        <button type="button" id="enviarId">Buscar</button>
+                        
+                        <input type="hidden" id="idcity" />
+                        <br><br>
+                    </form>
+                    <span id="nameCity"></span>
+                    <div id="resultado"></div>
+                </fieldset>
+            </div>
+            <div class="col-sm-6">
+                <h3>Seção D</h3>
+                <p>Conteúdo...</p>
+                <p>conteúdo...</p>
+            </div>
+        </div>
+        <div class="">
+            <h1>Seção E</h1>
+            <p>Conteúdo</p> 
+        </div>
+    </div>
+
+    <div id="footer">Rodapé</div>
+
+
+</body>
